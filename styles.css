@@ -7,12 +7,15 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #f2f2f2, #dfdef4, #c5ccf8, #a5bcfb, #78adff);
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
     font-family: 'Barlow', sans-serif;
 }
 
+
 nav {
-    background: transparent;
+    background-image: linear-gradient(to right, #f2f2f2, #dfdef4, #c5ccf8, #a5bcfb, #78adff);
+    /* background: transparent; */
     height: 80px;
     width: 100%;
 }
@@ -97,7 +100,7 @@ a:hover {
         position: fixed;
         width: 180px;
         height: 100vh;
-        background: white;
+        background-image: linear-gradient(to right, #f2f2f2, #dfdef4, #c5ccf8, #a5bcfb, #78adff);
         top: 80px;
         /* left: -100%; */
         right: -100%;
