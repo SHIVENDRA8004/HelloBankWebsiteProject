@@ -1,0 +1,65 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.hdoptn,a{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #48b4fd;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(17, 20, 58);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:1% 15%;
+}
+
+.logo{
+    height: 4.3em;
+    cursor: pointer;
+    margin-right: auto;
+}
+.links .hdoptn{
+    display: inline-block;
+}
+.links .hdoptn a{
+    transition: all 0.5s ease 0s;
+    margin: 0;
+}
+.links .hdoptn a:hover{
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 1.6em;
+}
+a{
+    padding: 0px 20px;
+}
+#sldimg{
+    height: 620px;
+    width: 100%;
+}
+.slider{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+}
+.dot{
+    text-align: center;
+}
+.dots{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 6px;
+    background-color: #48b4fd;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
