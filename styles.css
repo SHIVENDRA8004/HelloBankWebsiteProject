@@ -73,7 +73,7 @@ a:hover {
     }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 858px) {
     label.logo {
         font-size: 28px;
         padding-left: 40px;
@@ -95,12 +95,14 @@ a:hover {
 
     ul {
         position: fixed;
-        width: 100%;
+        width: 180px;
         height: 100vh;
-        background-image: linear-gradient(to right, #f2f2f2, #dfdef4, #c5ccf8, #a5bcfb, #78adff);
+        background: white;
         top: 80px;
-        left: -100%;
+        /* left: -100%; */
+        right: -100%;
         text-align: center;
+        transition: all 0.5s;
     }
 
     a:hover {
@@ -110,11 +112,10 @@ a:hover {
     }
 
     #check:checked~ul {
-        left: 0px;
+        right: -19px;
     }
 
     #check:checked~label {
-        left: 0px;
         transform: rotate(90deg);
     }
 }
